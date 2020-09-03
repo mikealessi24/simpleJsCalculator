@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Amazing Calculator!</title>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="calc-cont">
+      <input class="input" id="input" />
+      <div class="button clear" onclick="clearCalc()">CLEAR</div>
+      <div class="button signChange" onclick="signChange()">+/-</div>
+      <div class="button back" onclick="back()">BACK</div>
+      <div class="button divide" onclick="buttonPress('/')">÷</div>
+      <div class="button seven" onclick="buttonPress(7)">7</div>
+      <div class="button eight" onclick="buttonPress(8)">8</div>
+      <div class="button nine" onclick="buttonPress(9)">9</div>
+      <div class="button multiply" onclick="buttonPress('*')">x</div>
+      <div class="button four" onclick="buttonPress(4)">4</div>
+      <div class="button five" onclick="buttonPress(5)">5</div>
+      <div class="button six" onclick="buttonPress(6)">6</div>
+      <div class="button subtract" onclick="buttonPress('-')">-</div>
+      <div class="button one" onclick="buttonPress(1)">1</div>
+      <div class="button two" onclick="buttonPress(2)">2</div>
+      <div class="button three" onclick="buttonPress(3)">3</div>
+      <div class="button add" onclick="buttonPress('+')">+</div>
+      <div class="button zero" onclick="buttonPress(0)">0</div>
+      <div class="button decimal" onclick="decimalPress('.')">.</div>
+      <div class="button equal" onclick="equalCalc()">=</div>
+    </div>
+  </body>
+</html>
